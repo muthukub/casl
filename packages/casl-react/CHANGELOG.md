@@ -27,6 +27,31 @@ All notable changes to this project will be documented in this file.
 
 * exports types to support TS ES6 modules ([c818b1a](https://github.com/stalniy/casl/commit/c818b1a84cee6dc2ad78be72db4d1afe0f95b3f1)), closes [#668](https://github.com/stalniy/casl/issues/668)
 
+## [6.0.0](https://github.com/muthukub/casl/compare/@casl/react@5.0.1...@casl/react@6.0.0) (2026-03-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** now supports react ^17 and casl/ability ^4
+* removes deprecated things
+
+### Features
+
+* exports types to support TS ES6 modules ([c818b1a](https://github.com/muthukub/casl/commit/c818b1a84cee6dc2ad78be72db4d1afe0f95b3f1)), closes [#668](https://github.com/muthukub/casl/issues/668)
+
+
+### Bug Fixes
+
+* adjusts package tags to improve discoverability ([73e88b0](https://github.com/muthukub/casl/commit/73e88b0a256625b193b2cd9dc4a219f2e1193cbc))
+* **deps:** update dependency @types/jest to v30 ([#1133](https://github.com/muthukub/casl/issues/1133)) ([12c59ce](https://github.com/muthukub/casl/commit/12c59ce3ab717c49b980e2b3b7091c9e88e4d7e7))
+* **package:** add repository directory into package.json for all @casl/* packages ([#560](https://github.com/muthukub/casl/issues/560)) ([0ef534c](https://github.com/muthukub/casl/commit/0ef534c9df44816cd64d5142f41621034e5b70db))
+* replaces StatelessComponent&lt;T&gt; type with FunctionComponent&lt;T&gt; ([69336ea](https://github.com/muthukub/casl/commit/69336ea7a06b9a33d29b8df6dd4b2de2f7dc087d))
+
+
+### Miscellaneous Chores
+
+* **deps:** update react and removes old react and casl/ability support (major) ([#998](https://github.com/muthukub/casl/issues/998)) ([44d3f40](https://github.com/muthukub/casl/commit/44d3f40cb034fbd5abfd7f7014bb28baf75ef06a))
+
 ## [5.0.1](https://github.com/stalniy/casl/compare/@casl/react@5.0.0...@casl/react@5.0.1) (2026-01-18)
 
 
