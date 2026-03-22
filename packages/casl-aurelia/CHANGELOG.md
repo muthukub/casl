@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0](https://github.com/muthukub/casl/compare/@casl/aurelia@1.3.2...@casl/aurelia@1.4.0) (2026-03-22)
+
+
+### Features
+
+* exports types to support TS ES6 modules ([c818b1a](https://github.com/muthukub/casl/commit/c818b1a84cee6dc2ad78be72db4d1afe0f95b3f1)), closes [#668](https://github.com/muthukub/casl/issues/668)
+
+
+### Bug Fixes
+
+* adjusts package tags to improve discoverability ([73e88b0](https://github.com/muthukub/casl/commit/73e88b0a256625b193b2cd9dc4a219f2e1193cbc))
+* **deps:** update dependency @types/jest to v30 ([#1133](https://github.com/muthukub/casl/issues/1133)) ([12c59ce](https://github.com/muthukub/casl/commit/12c59ce3ab717c49b980e2b3b7091c9e88e4d7e7))
+* **package:** add repository directory into package.json for all @casl/* packages ([#560](https://github.com/muthukub/casl/issues/560)) ([0ef534c](https://github.com/muthukub/casl/commit/0ef534c9df44816cd64d5142f41621034e5b70db))
+
 ## [1.3.2](https://github.com/stalniy/casl/compare/@casl/aurelia@1.3.1...@casl/aurelia@1.3.2) (2026-01-18)
 
 
