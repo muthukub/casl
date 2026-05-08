@@ -48,7 +48,7 @@ jobs:
       - uses: ./.github/actions/setup-deps
       - name: Publish packages
         env:
-          DIST_TAG: ${{ github.ref_name == 'next' && 'next' || 'latest' }}
+          RELEASE_DIST_TAG: ${{ github.ref_name == 'next' && 'next' || 'latest' }}
         run: |
           for p in $(echo '${{ needs.release.outputs.paths_released }}' | jq -r '.[]'); do
             pnpm -r --filter "./$p" release -- --tag "$DIST_TAG"
